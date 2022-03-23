@@ -41,7 +41,4 @@ java_library_host {
         "jackson-annotations",
         "jackson-core",
     ],
-    errorprone: {
-        javacflags: ["-Xep:EqualsNull:WARN"]
-    }
 }
